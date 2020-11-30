@@ -1,5 +1,6 @@
 __pycache__
 *.pyc
 .ipynb_checkpoints
-
+/out/*
 /darter/settings.py
+libapp.so
