@@ -36,6 +36,7 @@ def get_funciont(fun_index, s, span=False):
         detail = ''
         if 'call' in nrefsItem[2]:
             detail = ' -> {0}'.format(nrefsItem[0].x['owner'])
+
         fun_str = fun_str + spanStr + \
             '    {0}{1}'.format(nrefsItem, detail) + '\n'
 
